@@ -1,11 +1,6 @@
-
-# coding: utf-8
-
-# In[1]:
-
 from IPython.display import clear_output
 
-board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',' ']
+board = [' ' * 10]
 
 def print_board():
         printed_board =  '''\t|{0}| <--->|{1}|<--->|{2}|
@@ -57,9 +52,3 @@ def game_loop():
         place_letter()
 
 game_loop()
-
-
-# In[ ]:
-
-
-
