@@ -1,6 +1,6 @@
 from IPython.display import clear_output
 
-board = [' ' * 10]
+board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',' ']
 
 def print_board():
         printed_board =  '''\t|{0}| <--->|{1}|<--->|{2}|
