@@ -12,7 +12,7 @@ def print_board():
 
 def place_letter():
     print 'Choose your move --> '
-    board.insert(input('index --> '), raw_input('letter --> '))
+    board.insert(input('index --> '), raw_input('letter --> ').upper())
     
 def check_win():
     player_1 = 'X'
