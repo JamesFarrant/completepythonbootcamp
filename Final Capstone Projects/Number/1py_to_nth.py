@@ -1,4 +1,4 @@
-import math.pi
+from math import pi
 
 def pi_to_nth(places):
-    print round(math.pi, places)
+    print round(pi, places)
