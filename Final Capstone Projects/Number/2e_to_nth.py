@@ -5,5 +5,3 @@ def e_to_nth(places):
         print round(e, places)
     else:
         return None
-
-e_to_nth(9)
